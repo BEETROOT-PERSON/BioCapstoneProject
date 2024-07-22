@@ -2,21 +2,22 @@
 <html>
     <head>
         <title>Organelles of the Cell</title>
-        <link rel = "icon" type = "image/" href = "">
+        <link rel = "icon" type = "image/png" href = "images/leaf.png">
         <link rel = "stylesheet" href = "bioCapstoneProject.css">
     </head>
     <body>
         <header class = "header">
             <h1 id = "mainTitle">Proyecto Science Capstone Project - Biology</h1>
+            <h4 id = "mainInfo">*Click on the buttons below to learn more about the organelles of the cell!*</h4>
             <div id = "labelControls">
-                <button class="label" id="labelMitochondria" onmouseover="showArrow('mitochondria')" onmouseout="hideArrow('mitochondria')"><a style="font-size: large; color: rgb(155, 89, 182);" href="">Mitochondria</a></button>
-                <button class="label" id="labelNucleus" onmouseover="showArrow('nucleus')" onmouseout="hideArrow('nucleus')"><a style="font-size: large; color: rgb(155, 89, 182);" href="">Nucleus</a></button>
-                <button class="label" id="labelEr" onmouseover="showArrow('er')" onmouseout="hideArrow('er')"><a style="font-size: large; color: rgb(155, 89, 182);" href="">Endoplasmic Reticulum</a></button>
-                <button class="label" id="labelLysosome" onmouseover="showArrow('lysosome')" onmouseout="hideArrow('lysosome')"><a style="font-size: large; color: rgb(155, 89, 182);" href="">Lysosome</a></button>
-                <button class="label" id="labelGolgi" onmouseover="showArrow('golgi')" onmouseout="hideArrow('golgi')"><a style="font-size: large; color: rgb(155, 89, 182);" href="">Golgi Apparatus</a></button>
+                <button class="label" id="labelMitochondria" onmouseover="showArrow('mitochondria')" onmouseout="hideArrow('mitochondria')"><a style="font-size: large; color: #9B59B6;" href="mito.html" title = "Click here to learn more about the Mitochondria">Mitochondria</a></button>
+                <button class="label" id="labelNucleus" onmouseover="showArrow('nucleus')" onmouseout="hideArrow('nucleus')"><a style="font-size: large; color: #9B59B6;" href="nucleus.html" title = "Click here to learn more about the Nucleus">Nucleus</a></button>
+                <button class="label" id="labelEr" onmouseover="showArrow('er')" onmouseout="hideArrow('er')"><a style="font-size: large; color: #9B59B6;" href="er.html" title = "Click here to learn more about the Endoplasmic Reticulum">Endoplasmic Reticulum</a></button>
+                <button class="label" id="labelLysosome" onmouseover="showArrow('lysosome')" onmouseout="hideArrow('lysosome')"><a style="font-size: large; color: #9B59B6;" href="lyso.html" title = "Click here to learn more about Lysosomes">Lysosome</a></button>
+                <button class="label" id="labelGolgi" onmouseover="showArrow('golgi')" onmouseout="hideArrow('golgi')"><a style="font-size: large; color:#9B59B6;" href="golgi.html" title = "Click here to learn more about the Golgi Apparatus">Golgi Apparatus</a></button>
             </div>
         </header>
-        <main class = "mainPage">
+        <main class = "mainPage" style = "background-color: #faf3e0;">
             <span class = "images">
                 <image id = "img1" src = "images/cell.jpg" alt = "this is a eukaritoic cell" height = 600></image>
                 <img id="arrowMitochondria" class="arrow mito" src = "images/arrow.png" style="display: none;">
@@ -26,11 +27,11 @@
                 <img id="arrowGolgi" class="arrow golgi" src = "images/arrow.png" style="display: none;">
             </span>
         </main>
-        <footer class = "footer">
+        <footer class = "footer" style = "color: #2C3E50">
             <p>Made By: Luca Valeriu Critac<br>
             Proyecto Science 2024<br>
             &copy; <del>Not Actually Copyright 2024</del><br></p>
-            <small><a id = "lastLink" href = "mailto:lucacritac@gmail.com">Email Me!</a></small>
+            <small><a id = "lastLink" href = "mailto:lucacritac@gmail.com" style = "color: #9B59B6;">Email Me!</a></small>
         </footer>
         <script>
             function showArrow(organelle) {
