@@ -64,3 +64,31 @@ body{
 #labelGolgi{
     color: purple;
 }
+.arrow-container {
+    position: relative;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.arrow.mito {
+    transform: rotate(0deg);
+}
+.arrow.nucleus {
+    transform: rotate(0deg);
+}
+.arrow.er {
+    transform: rotate(0deg);
+}
+.arrow.lyso {
+    transform: rotate(0deg);
+}
+.arrow.golgi {
+    transform: rotate(0deg);
+}
+#arrowMitochondria { top: 300px; left: 525px; }
+#arrowNucleus { top: 50px; left: 300px; }
+#arrowEr { top: 200px; left: 150px; }
+#arrowLysosome { top: 300px; left: 250px; }
+#arrowGolgi { top: 150px; left: 350px; }
