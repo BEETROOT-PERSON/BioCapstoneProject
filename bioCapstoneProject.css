@@ -1,31 +1,43 @@
+/*colour Pallete:
+#00264d {use this for header + footer}
+#DAA520 {use this for any links + special text effects}
+#CCCCCC {use this for main text}
+#F5F5F5 {use this for the main background color, unless we use a background image}
+#070159 {use this for all main elements}
+rgb(189, 195, 199) {use this for button surroundings and nothing else}
+# {use this for content text}*/
 *{
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: #F5F5F5;
-    display: flow-root;
     margin: 0;
-    padding: 0;
-    background-color: #00264d;
 }
 .mainPage{
-    background-image: url(images/bioBackground-transformed.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bioBackground-transformed.webp);
 }
 .header{
     background-color: #00264d;
     margin: 0;
 }
-.mainPage{
-    background-color: #00264d;
+.secondaryPage{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
 }
 .footer{
     background-color: #00264d;
     margin: 0;
+}
+.footerControls{
+    color: #DAA520;
 }
 #mainTitle{
     margin: 0;
