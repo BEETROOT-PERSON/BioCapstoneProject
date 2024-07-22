@@ -7,10 +7,10 @@ body{
     display: flow-root;
     margin: 0;
     padding: 0;
-    background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg);
+    background-color: #00264d;
 }
 .mainPage{
-    background-image: url(plantcells.webp);
+    background-image: url(images/bioBackground-transformed.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -40,13 +40,29 @@ body{
     margin: 10px;
     text-shadow: 2px 2px 7px rgb(165, 133, 5);
 }
+.infoText{
+    color: #CCCCCC;
+}
 .images{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
+.secondaryImages{
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+} 
 #img1{
-    height: 600; 
+    height: 600;
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px; 
+    border-color: #070159;
+    margin: 25px;
+    box-shadow: 2px 2px 7px rgb(165, 133, 5)
+}
+#img2{
     border-style: solid;
     border-width: 5px; 
     border-radius: 10px; 
@@ -85,7 +101,7 @@ body{
     position: absolute;
 }
 .arrow.mito {
-    transform: rotate(180deg);
+    transform: rotate(200deg);
     height: 200px;
     width: 200px;
 }
@@ -109,7 +125,7 @@ body{
     height: 200px;
     width: 200px;
 }
-#arrowMitochondria { top: 220px; left: 435px; }
+#arrowMitochondria { top: 200px; left: 435px; }
 #arrowNucleus { top: 180px; left: 680px; }
 #arrowEr { top: 300px; left: 855px; }
 #arrowLysosome { top: 330px; left: 410px; }
