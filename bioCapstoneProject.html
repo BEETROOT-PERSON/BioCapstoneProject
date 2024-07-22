@@ -7,17 +7,17 @@
     </head>
     <body>
         <header class = "header">
-            <h1 id = "mainTitle">Proyecto Science Capstone Project - Biology</h1>
-            <h4 id = "mainInfo">*Click on the buttons below to learn more about the organelles of the cell!*</h4>
+            <div class = "mainTextEffects"><h1 id = "mainTitle">Proyecto Science Capstone Project - Biology</h1></div>
+            <div class = "mainTextEffects"><h4 id = "mainInfo">*Click on the buttons below to learn more about the organelles of the cell!*</h4></div>
             <div id = "labelControls">
-                <button class="label" id="labelMitochondria" onmouseover="showArrow('mitochondria')" onmouseout="hideArrow('mitochondria')"><a style="font-size: large; color: #9B59B6;" href="mito.html" title = "Click here to learn more about the Mitochondria">Mitochondria</a></button>
-                <button class="label" id="labelNucleus" onmouseover="showArrow('nucleus')" onmouseout="hideArrow('nucleus')"><a style="font-size: large; color: #9B59B6;" href="nucleus.html" title = "Click here to learn more about the Nucleus">Nucleus</a></button>
-                <button class="label" id="labelEr" onmouseover="showArrow('er')" onmouseout="hideArrow('er')"><a style="font-size: large; color: #9B59B6;" href="er.html" title = "Click here to learn more about the Endoplasmic Reticulum">Endoplasmic Reticulum</a></button>
-                <button class="label" id="labelLysosome" onmouseover="showArrow('lysosome')" onmouseout="hideArrow('lysosome')"><a style="font-size: large; color: #9B59B6;" href="lyso.html" title = "Click here to learn more about Lysosomes">Lysosome</a></button>
-                <button class="label" id="labelGolgi" onmouseover="showArrow('golgi')" onmouseout="hideArrow('golgi')"><a style="font-size: large; color:#9B59B6;" href="golgi.html" title = "Click here to learn more about the Golgi Apparatus">Golgi Apparatus</a></button>
+                <button class="label" id="labelMitochondria" onmouseover="showArrow('mitochondria')" onmouseout="hideArrow('mitochondria')"><a style="font-size: large; color: #1d4ad0;" href="mito.html" title = "Click here to learn more about the Mitochondria">Mitochondria</a></button>
+                <button class="label" id="labelNucleus" onmouseover="showArrow('nucleus')" onmouseout="hideArrow('nucleus')"><a style="font-size: large; color: #1d4ad0;" href="nucleus.html" title = "Click here to learn more about the Nucleus">Nucleus</a></button>
+                <button class="label" id="labelEr" onmouseover="showArrow('er')" onmouseout="hideArrow('er')"><a style="font-size: large; color: #1d4ad0;" href="er.html" title = "Click here to learn more about the Endoplasmic Reticulum">Endoplasmic Reticulum</a></button>
+                <button class="label" id="labelLysosome" onmouseover="showArrow('lysosome')" onmouseout="hideArrow('lysosome')"><a style="font-size: large; color: #1d4ad0;" href="lyso.html" title = "Click here to learn more about Lysosomes">Lysosome</a></button>
+                <button class="label" id="labelGolgi" onmouseover="showArrow('golgi')" onmouseout="hideArrow('golgi')"><a style="font-size: large; color: #1d4ad0;" href="golgi.html" title = "Click here to learn more about the Golgi Apparatus">Golgi Apparatus</a></button>
             </div>
         </header>
-        <main class = "mainPage" style = "background-color: #faf3e0;">
+        <main class = "mainPage">
             <span class = "images">
                 <image id = "img1" src = "images/cell.jpg" alt = "this is a eukaritoic cell" height = 600></image>
                 <img id="arrowMitochondria" class="arrow mito" src = "images/arrow.png" style="display: none;">
@@ -27,11 +27,11 @@
                 <img id="arrowGolgi" class="arrow golgi" src = "images/arrow.png" style="display: none;">
             </span>
         </main>
-        <footer class = "footer" style = "color: #2C3E50">
-            <p>Made By: Luca Valeriu Critac<br>
-            Proyecto Science 2024<br>
+        <footer class = "footer" style = "color: #CCCCCC; text-align: center;">
+            <p style = "padding: 10px; margin: 0;">Made By: Luca Valeriu Critac<br>
+            Proyecto Science | Ps 3A<br>
             &copy; <del>Not Actually Copyright 2024</del><br></p>
-            <small><a id = "lastLink" href = "mailto:lucacritac@gmail.com" style = "color: #9B59B6;">Email Me!</a></small>
+            <big><a id = "lastLink" href = "mailto:lucacritac@gmail.com" style = "color: #1d4ad0;">Email Me!</a></big>
         </footer>
         <script>
             function showArrow(organelle) {
