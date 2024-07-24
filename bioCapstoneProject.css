@@ -155,24 +155,67 @@ body {
     margin: 25px;
     box-shadow: 2px 2px 7px rgb(165, 133, 5);
 }
+#img8{
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: #1b004d;
+    margin: 25px;
+    box-shadow: 2px 2px 7px rgb(165, 133, 5);
+}
+#img9{
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: #1b004d;
+    margin: 25px;
+    box-shadow: 2px 2px 7px rgb(165, 133, 5);
+}
+#img10{
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: #1b004d;
+    margin: 25px;
+    box-shadow: 2px 2px 7px rgb(165, 133, 5);
+}
+#img11{
+    border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: #1b004d;
+    margin: 25px;
+    box-shadow: 2px 2px 7px rgb(165, 133, 5);
+}
 .lastLink{
     margin: 0px;
 }
-#labelControls{
+.labelControls{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
+.labelControls ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.labelControls a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.labelControls a:hover{
+    background-color: #120230;
+}
+.labelControls li{
+    float: left;
+}
 .label{
     font-weight: bold;
     font-style: italic;
-    margin: 5px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border-color: rgb(189, 195, 199);
-    box-shadow: 2px 2px 7px rgb(165, 133, 5);;
-    border-width: 4px;
     background-color: #1b004d;
     text-align: center;
     gap: 10px;
