@@ -102,6 +102,7 @@ body {
     border-color: #1b004d;
     margin: 25px;
     box-shadow: 2px 2px 7px rgb(165, 133, 5);
+    align-items: center;
 }
 .secondaryImages{
     display: flex;
