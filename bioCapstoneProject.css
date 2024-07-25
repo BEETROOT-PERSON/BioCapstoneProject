@@ -223,3 +223,6 @@ body {
     text-align: center;
     gap: 10px;
 }
+ol li{
+    overflow: auto;
+}
