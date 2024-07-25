@@ -1,0 +1,1 @@
+This is a lil project of mine im doing, basically all it is, is a simple website that lets you navigate around and look at different parts of a cell. Very basic, very simple, but im proud of it. Yes, i am doing this for fun, it was optional.
